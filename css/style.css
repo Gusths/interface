@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black; 
+  
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    align-items: center;
+  }
+  
+  .logo1{
+    width: 300px;
+     }
+
+  body{
+    width: 100vw;
+    height: 100vh;
+  }
+ 
+ 
+
+.title2{
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  padding: 100px 50px 30px;
+  margin: 100px 0 0;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+
+}
+
+.list-card{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.filho{
+  width: 160px;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+}
+
+p{
+  color: white;
+  cursor: pointer;
+}
+
+.img-card{
+  width: 100%;
+  border-radius: 20%;
+  transition: all 1s;
+}
+
+.img-card:hover{
+  background-color: bisque;
+  width: 150px;
+}
+
+.botao{
+  cursor: pointer;
+  border: 1px solid white;
+  color: beige;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin:  20px;
+  padding: 20px; 
+  border-radius: 30%; 
+  margin: 50px;
+  height: 80px;
+  justify-content: center;
+  color: black;
+  background-color: white;
+}
+
+.botao:hover{
+  background-color: black;
+  color: white;
+  transition: all 2s;
+}
